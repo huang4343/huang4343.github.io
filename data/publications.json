@@ -1,0 +1,32 @@
+{
+  "schema_notes": "Editorial staging record only. Do not treat entries as peer-reviewed publications until titles, author list, venue and DOI verified.",
+  "records": [
+    {
+      "title": "MCDM 2026 research contribution",
+      "type": "conference",
+      "year": "2026",
+      "status": "Bibliographic details pending verification",
+      "venue": "International conference activity",
+      "doi": "",
+      "notes": "Exact program citation and presentation record to be confirmed before listing as a published proceeding."
+    },
+    {
+      "title": "ICSSI 2026 research contribution",
+      "type": "conference",
+      "year": "2026",
+      "status": "Bibliographic details pending verification",
+      "venue": "International conference activity",
+      "doi": "",
+      "notes": "Full author list and proceedings status require confirmation."
+    },
+    {
+      "title": "INFUS 2026 research contribution",
+      "type": "conference",
+      "year": "2026",
+      "status": "Bibliographic details pending verification",
+      "venue": "International conference activity",
+      "doi": "",
+      "notes": "Distinguish conference presentation from any subsequently published chapter."
+    }
+  ]
+}

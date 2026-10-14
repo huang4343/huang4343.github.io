@@ -1,0 +1,3 @@
+document.querySelectorAll('[data-year]').forEach(el=>el.textContent=new Date().getFullYear());
+const filterButtons=document.querySelectorAll('[data-filter]');const entries=document.querySelectorAll('[data-type]');
+filterButtons.forEach(button=>button.addEventListener('click',()=>{let type=button.dataset.filter;filterButtons.forEach(b=>b.setAttribute('aria-pressed',String(b===button)));entries.forEach(e=>{e.hidden=!(type==='all'||e.dataset.type===type)});document.getElementById('filter-status').textContent=type==='all'?'Showing all records.':'Showing '+button.textContent.trim().toLowerCase()+' records.';}));
